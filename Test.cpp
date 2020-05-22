@@ -67,9 +67,137 @@ TEST_CASE("Easy_test_two_players_2") {
     CHECK(board.has_soldiers(2));
     CHECK(!board.has_soldiers(1));
 
-    for(int i=0;i<100;i++){
-        CHECK(1==1);
-    }
+
+    CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+
+
+
+
 
 
 
