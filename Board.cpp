@@ -17,7 +17,7 @@ Soldier* Board::operator[](std::pair<int,int> location) const{
          return s;
 }
 
-void Board::move(uint player_number, std::pair<int,int> source, MoveDIR direction){//our actual move
+void Board::move(uint player_number, std::pair<int,int> source, MoveDIR direction){//our actual move //finifsh it !
 //    Soldier* s=this->board[source.first][source.second];    //The soldier we need to move
 //
 //    if(s==NULL){     //There is no soldier in this place
