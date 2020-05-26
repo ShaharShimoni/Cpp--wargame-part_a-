@@ -1,9 +1,30 @@
 //
 // Created by shahar on 19/05/2020.
 //
-
-
+#include <iostream> // 25/5
+using namespace std;
 #include "Sniper.hpp"
- void attack_or_cure(){
+ void Sniper::attack_or_cure(std::vector<std::vector<Soldier*>> board,std::pair<int,int> source){  //on the strongest one
+     cout<<"in sniper "<<endl;
+     int max=0;
+     Soldier *s;
+     for (int i = 0; i < board.size(); i++) {
+         for (int j = 0; j < board[0].size(); j++) {
+             if (board[i][j]) {
+                 int b=board[i][j]->initial_health_points;
+                 cout<<"b="<<b<<endl;
+                 if (b > max && board[i][j]->player_number != this->player_number) {
+                     max = b;
+                     s = board[i][j];
 
+                 }
+             }
+         }
+     }
+
+     s->initial_health_points=s->initial_health_points-this->damage_per_activity;
+     cout<<"points now="<<s->initial_health_points<<endl;
+//     if(s->initial_health_points==0){   //25/5
+//         delete s;
+//     }
 }
