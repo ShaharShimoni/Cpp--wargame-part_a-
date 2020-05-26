@@ -277,7 +277,7 @@ TEST_CASE("Test_6") {
 
             CHECK(board.has_soldiers(1));
             CHECK(!board.has_soldiers(2));
-            
+
 
 }
 

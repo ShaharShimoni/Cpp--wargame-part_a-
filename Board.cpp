@@ -22,11 +22,11 @@ void Board::move(uint player_number, std::pair<int,int> source, MoveDIR directio
 
     if(s==NULL){     //There is no soldier in this place
         cout<<"problem 1"<<endl;
-        throw exception();
+        //throw exception();
     }
     if(s->player_number!=player_number){    //The soldier doesnt belong to the player
         cout<<"problem 2"<<endl;
-        throw exception();
+        //throw exception();
     }
    //actual move !!!! missing
 
