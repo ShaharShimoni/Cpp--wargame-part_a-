@@ -28,6 +28,8 @@ class Board {
     
     // operator for reading which soldiers are on the game-board.
     Soldier* operator[](std::pair<int,int> location) const;
+
+    std::pair<int,int> actual_move(uint player_number, std::pair<int,int> source, MoveDIR direction);
     
     // The function "move" tries to move the soldier of player "player"
     //     from the "source" location to the "target" location,
@@ -44,6 +46,7 @@ class Board {
 
     // returns true iff the board contains one or more soldiers of the given player.
     bool has_soldiers(uint player_number) const;
+
 };
 
 }

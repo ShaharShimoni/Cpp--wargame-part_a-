@@ -152,7 +152,7 @@ TEST_CASE("Test(3)") {
     board.move(1, {1, 1}, Board::MoveDIR::Down);
     CHECK(board.has_soldiers(1));
     CHECK(!board.has_soldiers(2));
-    
+
 }
 
 TEST_CASE("Test(4)"){
